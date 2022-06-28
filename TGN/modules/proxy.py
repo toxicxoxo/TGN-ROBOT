@@ -74,7 +74,7 @@ async def proxy_func(_, message: Message):
 **Proxy:** {proxy}
 **Location**: {location}
 
-**POWERED BY [GODFATHER](http://t.me/TGN_RO_BOT)**""",
+**POWERED BY [REALHOMIES](https://t.me/real_homies)**""",
         reply_markup=keyb,
         disable_web_page_preview=True,
     )
@@ -99,7 +99,7 @@ async def proxy_callback_func(_, cq: CallbackQuery):
 **Proxy:** {proxy}
 **Location**: {location}
 
-**POWERED BY [GODFATHER](http://t.me/TGN_RO_BOT)**""",
+**POWERED BY [REALHOMIES](https://t.me/real_homies)**""",
         reply_markup=keyb,
         disable_web_page_preview=True,
     )
