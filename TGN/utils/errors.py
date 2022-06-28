@@ -1,5 +1,5 @@
-""" WRITTEN BY @pokurt, https://github.com/pokurt"""
-# credits goes to William, https://github.com/WilliamButcherBot
+""" WRITTEN BY GOD, https://github.com/"""
+# credits goes to GOD, 
 
 import sys
 import traceback
