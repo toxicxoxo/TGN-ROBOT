@@ -85,7 +85,7 @@ PM_START_TEXT = """
 ❤卄i {}
 👮 ɪ ᴀᴍ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀᖴᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴏᶠ ᴛᴇʟᴇɢʀᴀᴍ..\n
 ɪ ʜᴀᴠᴇ ᴀᴡᴇ𝐒ᴏᴍᴇ 𝐟ᴇᴀᴛᴜʀᴇs ᴀɴᴅ ɴᴏ ᴏɴᴇ ᴄᴀɴ ʙᴇᴀᴛ ᴍᴇ ᴏʀ ɢᴇᴛᴛɪɴɢ ɪɴƒᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ𝕊 ᴄʟɪᴄᴋ ᴏɴ ᴄᴏᴍᴍᴀɴᴅ𝕤 ʙᴜᴛᴛᴏɴ ᴏʀ JOIN OUR FEDERATION joinfed 520fce7b-746d-4e0a-9a4e-6923a1df7663.
-➛ᴛʀʏ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴛᴏ ᴋɴᴏᴡ ᴍʏ ᴀʙɪʟɪᴛɪᴇs ××
+🍁USE ʜᴇʟᴘ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴛᴏ ᴋɴᴏᴡ ᴍʏ ᴀʙɪʟɪᴛɪᴇs🍁 ××
 """
 
 buttons = [
@@ -111,7 +111,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="Donate 🌹", 
+            text="🍁Donate🍁 ", 
             callback_data="shukurenai_donate"),
     ],
 
@@ -248,8 +248,8 @@ def start(update: Update, context: CallbackContext):
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="✧ Support ", url=f"https://t.me/real_homies"),
-                  InlineKeyboardButton(text="✧ Updates ", url=f"https://t.me/real_homies"),
+                  InlineKeyboardButton(text="🍁 Support 🍁 ", url=f"https://t.me/real_homies"),
+                  InlineKeyboardButton(text="🍁 Updates 🍁 ", url=f"https://t.me/real_homies"),
                   ]
                 ]
             ),
@@ -383,12 +383,12 @@ def shukurenai_about_callback(update, context):
     if query.data == "shukurenai_":
         query.message.edit_text(
             text="I'm *❤HOMIESBOT❤*, ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇASɪʟʏ ᴀɴᴅ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ Fʀᴏᴍ Sᴄᴀᴍᴍᴇʀ ᴀɴᴅ Sᴘᴀᴍᴍᴇʀ."
-            "\n• I can play music too in your group."
-            "\n• I can greet users with customizable welcome messages and even set a group's rules."
-            "\n• I have an advanced anti-flood system."
-            "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc. "
-            "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
-            "\n• I check for admins' permissions before executing any command and more stuffs"
+            "\n 🌼 I can play music too in your group.🌼"
+            "\n 🌼 I can greet users with customizable welcome messages and even set a group's rules.🌼"
+            "\n 🌼 I have an advanced anti-flood system.🌼"
+            "\n 🌼 I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.🌼 "
+            "\n 🌼 I have a note keeping system, blacklists, and even predetermined replies on certain keywords.🌼"
+            "\n 🌼 I check for admins' permissions before executing any command and more stuffs🌼 "
             "\n\n_ HOMIESBOT licensed under the GNU General Public License v3.0_"
             "\n\n Click on button bellow to get basic help for HOMIES.",
             parse_mode=ParseMode.MARKDOWN,
@@ -430,11 +430,11 @@ def shukurenai_about_callback(update, context):
     elif query.data == "shukurenai_admin":
         query.message.edit_text(
             text=f"*😎 Let's make your group bit effective now*"
-            "\nCongragulation, now I'm ready to manage your group."
-            "\n\n*Admin Tools*"
+            "\n☘Congragulation, now I'm ready to manage your group."
+            "\n\n*☘Admin Tools☘*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
-            "\n\n*Greetings*"
+            "\n\n*☘Greetings☘*"
             "\nLets set a welcome message to welcome new users coming to your group."
             "\nsend `/setwelcome [message]` to set a welcome message!",
             parse_mode=ParseMode.MARKDOWN,
@@ -446,7 +446,7 @@ def shukurenai_about_callback(update, context):
 
     elif query.data == "shukurenai_notes":
         query.message.edit_text(
-            text=f"<b>๏ Setting up notes</b>"
+            text=f"<b>☘ Setting up notes</b>"
             f"\nYou can save message/media/audio or anything as notes"
             f"\nto get a note simply use # at the beginning of a word"
             f"\n\nYou can also set buttons for notes and filters (refer help menu)",
@@ -740,7 +740,7 @@ def get_settings(update: Update, context: CallbackContext):
     # ONLY send settings in PM
     if chat.type != chat.PRIVATE:
         if is_user_admin(chat, user.id):
-            text = "Click here to get this chat's settings, as well as yours."
+            text = "Click here to get this chat's settings, as well as yours TALKING ABOUT BOT DIRTY."
             msg.reply_text(
                 text,
                 reply_markup=InlineKeyboardMarkup(
@@ -775,7 +775,7 @@ def donate(update: Update, context: CallbackContext):
         if OWNER_ID != 1606221784:
             update.effective_message.reply_text(
                 "I'm free for everyone 😎 If you wanna make me smile, just join"
-                "[My Channel](https://t.me/HomiesAttendant)".format(DONATION_LINK),
+                "[My Channel](https://t.me/real_homies)".format(DONATION_LINK),
                 parse_mode=ParseMode.MARKDOWN,
             )
     else:
