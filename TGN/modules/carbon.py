@@ -27,7 +27,7 @@ async def carbon_func(_, message):
 @pbot.on_message(filters.command("lele"))
 async def repo(_, message):
     await message.reply_text(
-        f"""✨ **Donate for GodfatherBot** 
+        f"""✨ **Donate for God** 
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -35,7 +35,7 @@ async def repo(_, message):
                     InlineKeyboardButton(
                         "Repo", url="Www.google.com"), 
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/Shubhanshutya")
+                        "Support", url="@HomiesAttendant")
                 ]
             ]
         ),
