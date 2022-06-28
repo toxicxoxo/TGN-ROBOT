@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/bfa2fbaf65ac04fad78ee.jpg">
+  <img src="https://telegra.ph/file/688df0c1da900aaa551df.jpg">
 </p>
 
 <h1 align="center"><b> REAL HOMIES Robot  </b></h1>
