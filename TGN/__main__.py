@@ -383,7 +383,7 @@ def shukurenai_about_callback(update, context):
     if query.data == "shukurenai_":
         query.message.edit_text(
             text="I'm *❤HOMIESBOT❤*, ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇASɪʟʏ ᴀɴᴅ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ Fʀᴏᴍ Sᴄᴀᴍᴍᴇʀ ᴀɴᴅ Sᴘᴀᴍᴍᴇʀ."
-            "\n 🌼 I can play music too in your group.🌼"
+            "\n 🌼 I can ban spammers.🌼"
             "\n 🌼 I can greet users with customizable welcome messages and even set a group's rules.🌼"
             "\n 🌼 I have an advanced anti-flood system.🌼"
             "\n 🌼 I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.🌼 "
