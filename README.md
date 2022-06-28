@@ -10,13 +10,13 @@
   <a href="https://github.com/Godfatherakkii/TGN-ROBOT/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" /> </a>
 </p>
 
-<p align="center"><a href="https://t.me/TGN_Ro_bot"><img src="(https://telegra.ph/file/e641d3dd2ccdce6a3d934.jpg)" width="400"></a></p>
+<p align="center"><a href="http://t.me/HomiesAttendantbot"><img src="(https://telegra.ph/file/e641d3dd2ccdce6a3d934.jpg)" width="400"></a></p>
 
-## Available on Telegram as [@TGN_Ro_bot](https://t.me/YurikoRobot)
+## Available on Telegram as [@HomiesAttendantbot](http://t.me/HomiesAttendantbot)
 
 # ❤️ Support
-<a href="https://t.me/The_Godfather_Network"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="https://t.me/GodfatherSupport"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/real_homies"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/real_homies"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 
 ## 🇮🇳 Heroku Deploy 🇮🇳
@@ -28,9 +28,7 @@ The easiest way to deploy this Bot is via Heroku.
 
 ## CREDIT
 ```
-Shubhanshu (Null-coder)
-Akki
-Zaid
+TOXIC LOVER 
 ```
 
  
