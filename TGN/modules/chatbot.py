@@ -60,17 +60,17 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("GodfatherBot AI Already Activated In This Chat")
+            await lel.edit("HOMIESBot AI Already Activated In This Chat")
             return
-        await lel.edit(f"GodfatherBot AI Actived by {message.from_user.mention()} for users in {message.chat.title}")
+        await lel.edit(f"HOMIESBot AI Actived by {message.from_user.mention()} for users in {message.chat.title}")
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("GodfatherBot AI Was Not Activated In This Chat")
+            await lel.edit("HOMIESBot AI Was Not Activated In This Chat")
             return
-        await lel.edit(f"GodfatherBot AI Deactivated by {message.from_user.mention()} for users in {message.chat.title}")
+        await lel.edit(f"HOMIESBot AI Deactivated by {message.from_user.mention()} for users in {message.chat.title}")
 
     elif status == "EN" or status == "en" or status == "english":
         if not chat_id in en_chats:
@@ -338,7 +338,7 @@ async def inuka(client, message):
 
 
 __help__ = """
-   GODFATHER-BOT AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
+   RealHOMIES-BOT AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
 
 ❍  /chatbot [ON/OFF]: Enables and disables AI Chat mode (EXCLUSIVE)
 ❍  /chatbot EN : Enables English only chatbot
